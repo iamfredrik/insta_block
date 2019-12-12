@@ -1,0 +1,6 @@
+insta:
+  page_name: 'instagram'
+  sm_columns: '2'
+  md_columns: '4'
+  lg_columns: '4'
+  count: '4'

@@ -1,0 +1,6 @@
+insta_block.insta_media:
+  path: '/insta/media'
+  defaults:
+    _controller: '\Drupal\insta_block\Controller\InstaController::instaMedia'
+  requirements:
+    _permission: 'access content'

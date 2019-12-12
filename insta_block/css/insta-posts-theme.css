@@ -1,0 +1,54 @@
+html {
+  font-size: 100%;
+}
+
+#block-instablock:after {
+  content: "";
+  display:table;
+  clear: both;
+}
+
+#insta_posts > div[class^="col"] {
+  margin-bottom: 30px;
+}
+
+.insta-image {
+  position:relative;
+}
+
+.insta-image .insta-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color:#000;
+}
+
+.insta-image:hover .insta-overlay {
+  opacity: .7;
+}
+
+.insta-likes-comments {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align:center;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.insta-likes-comments .fa {
+  margin-right: 5px;
+}
+
+.insta-caption {
+  margin-top: 10px;
+}

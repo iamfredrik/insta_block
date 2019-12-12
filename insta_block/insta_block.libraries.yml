@@ -1,0 +1,35 @@
+insta-posts:
+  version: 1.x
+  css:
+    theme:
+      css/insta-posts-theme.css: {}
+  js:
+    js/insta-posts.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/drupalSettings
+    - insta_block/bootstrap-cdn
+    - insta_block/font-awesome
+    
+bootstrap-cdn: 
+  remote: http://getbootstrap.com/
+  version: 3.3.7
+  license:
+    name: MIT
+    url: https://github.com/twbs/bootstrap/blob/master/LICENSE
+    gpl-compatible: true
+  css:
+    base:
+      //maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css : {type: external, minified: true }   
+
+font-awesome:
+  remote: https://github.com/FortAwesome/Font-Awesome
+  version: 4.7.0
+  license: 
+    name: MIT
+    url: http://fontawesome.io/license/
+    gpl-compatible: true
+  css:
+    theme: 
+      //maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css : {type: external, minified: true }
